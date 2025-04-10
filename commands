@@ -1,2 +1,3 @@
  K6_PROMETHEUS_RW_SERVER_URL=https://prometheus.infra.slick.ge/api/v1/write k6 run 2.js -o experimental-prometheus-rw
  K6_INFLUXDB_ORGANIZATION="Slick" \\nK6_INFLUXDB_BUCKET="k6" \\nK6_INFLUXDB_TOKEN="token-goes-here" \\nK6_INFLUXDB_ADDR="https://influxdb.infra.slick.ge" ./k6 run 2.js -o xk6-influxdb
+  3157  xk6 build --with github.com/grafana/xk6-output-influxdb
