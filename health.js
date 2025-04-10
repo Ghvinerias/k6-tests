@@ -6,7 +6,7 @@ let serviceDuration = new Trend('service_duration', true); // enable tags
 
 export let options = {
   vus: 100,
-  duration: '10s',
+  duration: '30s',
 };
 
 function parseDuration(durationStr) {
